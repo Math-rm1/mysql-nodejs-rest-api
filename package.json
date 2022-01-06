@@ -1,0 +1,22 @@
+{
+  "name": "projeto-nodejs-rest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Math-rm1/nodejs-api-rest.git"
+  },
+  "author": "Matheus Rodrigues Mariano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Math-rm1/nodejs-api-rest/issues"
+  },
+  "homepage": "https://github.com/Math-rm1/nodejs-api-rest#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
