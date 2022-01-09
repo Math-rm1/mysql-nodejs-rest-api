@@ -1,10 +1,10 @@
 const mysql = require('mysql');
 
-const conexao = mysql.createPool({
-  host: 'us-cdbr-east-05.cleardb.net',
-  user: 'b86a6d3beb0e3c',
-  password: 'a6f5a083',
-  database: 'heroku_517f83d60128043',
+const conexao = mysql.createConnection({
+  host: 'i0rgccmrx3at3wv3.cbetxkdyhwsb.us-east-1.rds.amazonaws.com',
+  user: 'r7noj3p30blo4hnc',
+  password: 'qv3xukgfzdejxl3l',
+  database: 'ttcq0p163h9lwuk7',
 });
 
 module.exports = conexao;
