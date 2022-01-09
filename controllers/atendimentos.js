@@ -28,4 +28,8 @@ module.exports = (app) => {
 
     Atendimento.deleta(id, res);
   });
+
+  app.delete('/atendimentos', (req, res) => {
+    Atendimento.deletaTodos(res);
+  });
 };

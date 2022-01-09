@@ -100,6 +100,19 @@ class Atendimento {
       }
     });
   }
+
+  deletaTodos(res) {
+    const sql = 'DELETE FROM Atendimentos';
+    conexao.query(sql, (erro, resultados) => {
+      if (erro) {
+        res.status(400).json(erro);
+      } else {
+        res
+          .status(200)
+          .json({ message: 'Todos os atendimentos foram deletados' });
+      }
+    });
+  }
 }
 
 module.exports = new Atendimento();
